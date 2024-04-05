@@ -1,17 +1,19 @@
 # Ray Tracing: The Next Week With Rust
 
-本项目为一个简单的光线追踪渲染器，参考[_Ray Tracing: The Next Week_](https://raytracing.github.io/books/RayTracingTheNextWeek.html)，用Rust实现。该书为[_Ray Tracing in One Weekend_](https://raytracing.github.io/books/RayTracingInOneWeekend.html) 的下一章。实现了动态模糊、图片用作纹理、体积渲染、Perlin Noise、四边形、光源、实例。
+本项目为一个简单的光线追踪渲染器，参考[_Ray Tracing: The Next Week_](https://raytracing.github.io/books/RayTracingTheNextWeek.html)，用Rust实现。该书为[_Ray Tracing in One Weekend_](https://raytracing.github.io/books/RayTracingInOneWeekend.html) 的下一章。实现了动态模糊、图片用作纹理、体积渲染、Perlin Noise、四边形、光源、实例。你也可以访问上一章节：[Mario-Hero/Ray-Tracing-in-One-Weekend-with-Rust](https://github.com/Mario-Hero/Ray-Tracing-in-One-Weekend-with-Rust)。
 
-This project is a simple ray tracing renderer, reference [_Ray Tracing: The Next Week_](https://raytracing.github.io/books/RayTracingTheNextWeek.html), implement using Rust. The book is the next chapter of [_Ray Tracing in One Weekend_](https://raytracing.github.io/books/RayTracingInOneWeekend.html). Implemented motion blur, images for texture, volume rendering, Perlin Noise, quadrilaterals, lighting, and instances.
+This project is a simple ray tracing renderer, reference [_Ray Tracing: The Next Week_](https://raytracing.github.io/books/RayTracingTheNextWeek.html), implement using Rust. The book is the next chapter of [_Ray Tracing in One Weekend_](https://raytracing.github.io/books/RayTracingInOneWeekend.html). Implemented motion blur, images for texture, volume rendering, Perlin Noise, quadrilaterals, lighting, and instances. Also, you are welcomed to visit the previous chapter: [Mario-Hero/Ray-Tracing-in-One-Weekend-with-Rust](https://github.com/Mario-Hero/Ray-Tracing-in-One-Weekend-with-Rust)
 
 | <img src="./final_scene.jpg" width="60%" /> | <img src="./cornel10000.jpg" width="100%" /> |
-| :-----------------------------------------------: | :-------------------------------------------------: |
-|                    final_scene                    |                  cornell_box_scene                  |
+| :-----------------------------------------: | :------------------------------------------: |
+|                 final_scene                 |              cornell_box_scene               |
 
 ## 依赖 Dependency
 
 1. Rayon: 用于多线程加速渲染 Used for multi-threaded accelerated rendering.
+
 2. nalgebra: 提供Vec3支持 Provide Vec3 support.
+
 3. tokio、indicatif: 实现进度条 Used to implement a progress bar.
 
 4. image：用于导入图像用作纹理 Used for importing images as textures.
@@ -41,4 +43,3 @@ and make `final_scene` another function in `scene.rs`. Such as `perlin_scene`、
 ## License
 
 The project is released under MIT License.
-
