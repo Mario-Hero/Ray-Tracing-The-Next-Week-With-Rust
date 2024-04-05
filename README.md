@@ -4,7 +4,7 @@
 
 This project is a simple ray tracing renderer, reference [_Ray Tracing: The Next Week_](https://raytracing.github.io/books/RayTracingTheNextWeek.html), implement using Rust. The book is the next chapter of [_Ray Tracing in One Weekend_](https://raytracing.github.io/books/RayTracingInOneWeekend.html). Implemented motion blur, images for texture, volume rendering, Perlin Noise, quadrilaterals, lighting, and instances.
 
-| <img src="./final_scene.jpg" style="zoom:40%;" /> | <img src="./cornel10000.jpg" style="zoom:83.9%;" /> |
+| <img src="./final_scene.jpg" width="50%" /> | <img src="./cornel10000.jpg" width="100%" /> |
 | :-----------------------------------------------: | :-------------------------------------------------: |
 |                    final_scene                    |                  cornell_box_scene                  |
 
